@@ -1,0 +1,41 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1,
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding-top: 60px;
+  background-color: #f5eac9;
+}
+
+
+
+
+main {
+  width: 100%;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+main::after {
+  content: "";
+  position: fixed;
+  opacity: 0.3;
+  top: 0;
+  background-image: url('https://img.freepik.com/premium-photo/white-wooden-banner-cooking-food-background-top-view-free-space-your-text_187166-51236.jpg?w=2000');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  
+}
